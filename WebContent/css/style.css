@@ -1,0 +1,258 @@
+
+/*--------------------------------------初始化网站样式----------------------------*/
+html{border:0;width:100%; overflow-y:scroll;}
+html,body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, p, blockquote,th,td,textarea,input,botton,form {margin:0;padding:0;}
+fieldset, img {border:0 none;}
+input, button, textarea, select {font-family: inherit;font-size: inherit;font-weight: inherit;font: 100% Tahoma,Helvetica,Arial,sans-serif;}
+ul,ol,dl,dd,dt,form{list-style:none;}
+li {list-style:none outside none;}
+h1, h2,h4, h5, h6 {font-weight:normal;}
+h3{font-weight:bold;font-size:14px;}
+h1{font-size:16px}
+h5,h6{font-size:12px}
+table {font-size:inherit;align:center;}
+a{text-decoration:none;}
+/*a:link,a:visited{color:#000;}
+a:hover,a:active{text-decoration:none;color:#000;}*/
+body{font:12px/1.75 "宋体", arial, sans-serif,'DejaVu Sans','Lucida Grande',Tahoma,'Hiragino Sans GB',STHeiti,SimSun,sans-serif;line-height:1.5em; color:#000;background:#fff  url(../images/bg.jpg)  repeat-x;}
+
+.clear{clear:both; }	
+.body_frame{width:990px;margin:10px auto;background:border:0px solid #ccc;padding:0px 5px;}
+
+
+
+
+/*--------------------------------------top search 样式----------------------------*/
+#search{margin:10px 5px;position:relative;width:280px;}
+#search .input{border:1px #ccc solid;height:25px;width:200px;color:#999;text-align:center;line-height:25px;}
+#search .buttom{padding-left:2px;position:absolute;right:0px;top:1px;}
+
+
+#header{overflow:hidden;height:auto;background: url("../images/bg_header.gif") right top no-repeat;}
+#header .logo{padding:10px;float:left;width:500px;overfolw:hidden;}
+#header .search0{float:right;width:300px;overfolw:hidden;margin-top:20px;}
+
+
+
+
+
+
+/*--------------------------------------nav 主导航 ----------------------------*/
+#nav{height:33px;text-align:center;overflow:hidden;background:url('../images/nav_bg.gif')  repeat-x;}/*导航条的背景在这设置*/
+#nav .main_nav{height:33px;text-align:center;  overflow:hidden;  }/*注释的部分主要是用来设置圆角导航的时候用到的左圆角背景*/
+#nav .main_nav  li {line-height:33px;float:left;background:url('../images/nav_line.gif') right center no-repeat;width:98px;}
+#nav .main_nav a{color:#fff;  font-size:14px; display:block;height:33px;width:98px; text-decoration:none;margin:0px auto;}
+#nav .main_nav .on a,#nav .main_nav a:hover {background:url('../images/nav_h.gif') repeat-x; color:#fff;}
+
+
+
+
+/*================边导航：sidebar  一般是与产品列表条====start==========*/
+.sidebar{margin: 0px 0px; padding: 0px;text-align:left;}
+.sidebar li {text-decoration:none; overflow:hidden;height:28px;line-height:28px;background:url('../images/bg_side.gif') repeat-x;border:1px solid #e5e5e5; margin:1px 0px;}
+.sidebar a {color:#666; font-size:13px;  display:block; padding-left:25px;}
+.sidebar a:hover {background:url('../images/ico6.gif') 10px center no-repeat;}
+.sidebar .small{line-height:23px;background:url('ico/ico1.gif') no-repeat 25px 50%; }
+.sidebar .small a{display:block; background:none; font-size:12px;  padding-left:35px;}
+.sidebar .small a:hover{color:red;}
+/*================边导航：sidebar  一般是与产品列表条====end==========*/
+
+
+
+
+
+
+
+
+/*================newslist pagen style====start==========*/
+/* newslist */
+.newslist {list-style-image:none;margin-top: 0px; padding: 0px;text-align:left;}
+.newslist li {padding:3px 0px;border-bottom:1px #999 dotted; height:100%; overflow:hidden;line-height:20px;}
+.newslist li span{display:block;}
+.newslist span.news-content{float:left; width:auto;background:url('../images/ico3.gif') 5px 50% no-repeat; padding-left:25px;}
+.newslist span.news-time{width:auto;float:right; text-align:right;}
+.newslist a {color:#986700;}
+.newslist a:hover {color:red;}
+.newslist a:visited {color:red;}
+.newslist .more-news {float:right;font-size:11px;color:#ccc;}/*更多新闻样式*/
+.newslist .data {float:right;width:150px;background-color:#FFF4D4;text-align:center;}
+/*================newslist pagen style====end==========*/
+
+/*-----------------news pagenumber style--------------*/
+.newslist-page{padding:10px; text-align:right; height:100%; overflow:hidden;clear:both;}
+.newslist-page .pagenumber-form{float:right; text-align:right;}
+.newslist-page span{ float:left; display:block; width:auto; margin:0px 2px 0px 0px; display:inline;}
+.newslist-page span.sum-page{line-height:24px; font-size:13px;}
+.newslist-page a,.newslist-page b{display:block; float:left; padding:0px 5px; margin:0px 5px; border:1px solid #000;display:inline; font-weight:bold; color:#000;}
+.newslist-page a:hover{background:#000; color:#fff;}
+.newslist-page b{background:#000; color:#fff;}
+.newslist-page .key-page{ vertical-align:text-top;}
+.newslist-page .input-page{width:35px;/* font-size:14px; margin:0px 5px;*/}
+.newslist-page .page-button{padding:0px;}
+
+/*================shownews pagen style====start==========*/
+.show-news{width:100%;}
+.show-news h3.news-title{text-align:center; font-size:15px; font-weight:bold; margin-top:5px}
+.show-news div.time{text-align:right; padding:5px;}
+.show-news .news-content{margin:5px;}
+.show-news .previous,.show_news .next{margin-top:50px;}
+/*================shownews pagen style====end==========*/
+
+
+#newslist0 li{line-height:24px;background:url('ico/ico5.gif') 3px center no-repeat;}
+#newslist0 li a{color:#999;padding-left:20px;}
+#newslist0 li span.time{float:right;}
+
+
+/*================productslist style 产品列表页样式====start==========*/
+.pro_list{margin:5px;}
+.pro_list td.line{padding-top:5px;}
+.pro_list div.pro_show{padding:2px; margin:2px; }
+.pro_list .pro_img{margin:0px; text-align:center;}/*产品图片展示样式*/
+.pro_list .pro_img img{padding:0px 0px;border:1px solid #ccc;padding:1px;}
+.pro_list .pro_name{text-align:center;height:24px;line-height:24px;font-weight:bold;}/*产品名称样式*/
+.pro_list .pro_name a{color:#000;}
+.pro_list .pro_name a:hover{color:red;}
+.pro_list .pro_introduce{text-align:left;padding:5px 10px;}/*产品简介样式*/
+
+
+
+
+
+/*-----------------product pagenumber style--------------*/
+.productlist-page{margin-top:50px; text-align:right; height:100%; overflow:hidden;clear:both;color:#fff;}/*产品类表页页码最外层样式*/
+.productlist-page .pagenumber-form{float:right; text-align:right;}/*产品类表页页码最外层样式*/
+.productlist-page span{ float:left; display:block; width:auto; margin:0px 2px 0px 0px; display:inline;line-height:15px;}/*定义总体的span样式*/
+.productlist-page span.sum-page{line-height:24px; font-size:13px;}/*页码的总页数第几页的文字的样式*/
+.productlist-page a,.productlist-page b{display:block;  float:left; padding:0px 5px; border:1px solid #CDCDCD; margin:0px 5px;display:inline; font-weight:bold; color:#fff; /**/}/*定义页码中的a和b的样式*/
+.productlist-page .pagenumber a{}/*定义页码数字的样式*/
+.productlist-page .next-page a{}/*控制上下一页的a的样式*/
+.productlist-page a:hover{background:#F60100; color:#fff;}/*控制上下一页的鼠标经过a的样式*/
+.productlist-page b{background:#F60100; color:#fff;}/*定义当前页的页码的样式*/
+.productlist-page .key-page{ vertical-align:text-top;}/*定义输入页码框的样式*/
+.productlist-page .input-page{width:35px;/* font-size:14px; margin:0px 5px;*/}/*定义输入页码框的样式*/
+.productlist-page .page-button{padding:0px;}/*定义输入页码按钮的样式*/
+
+
+
+/*-----------------products_detail style 产品详细页样式--------------*/
+.pro_detail_show{margin:2px;}
+.pro_detail_show .pro_detail_img img{padding:2px;border:1px solid #ccc;}
+.pro_detail_show ul{margin:3px;}
+.pro_detail_show ul li{margin:5px;}
+.pro_detail_introduce{margin:2px; border:0px solid #ccc;}
+
+
+
+/*================tuijian pro style式====start==========*/
+#tuijian_pro_1{ text-align:center;}
+#tuijian_pro_1 td.line{border-bottom:0px dotted #ccc;}
+#tuijian_pro_1 .tuijian_pro_name{height:26px;line-height:26px;color:#fff; text-align:left;overflow:hidden; text-align:center;background:url('../images/tj_t.gif')  repeat-x;}
+#tuijian_pro_1 .tuijian_pro_name a{color:#fff; text-decoration:none;font-size:13px;}
+#tuijian_pro_1 .tuijian_pro_content{ vertical-align:top}
+#tejia_pro .tejia_name a{color:#ce0002; font-weight:bold;}
+/**/
+
+
+
+/*-----------------liuyan style--------------*/
+#liuyan table{width:98%;}
+#liuyan td{line-height:24px;}
+#liuyan .L-title{padding:5px; text-align:center; line-height:30px; font-size:14px;}
+#liuyan .L-title .look-liuyan{float:right;_margin-top:-30px;*margin-top:-30px;}
+#liuyan .column-name{width:20%; text-align:right; padding:5px 10px;}
+#liuyan input{margin:2px 0px; font-size:14px;}
+#liuyan .yanzheng_font{font-size:15px; color:#fff; padding:2px; background:#09F; margin:0px 20px; letter-spacing:5px;}
+
+/*-----------------liuyan list style--------------*/
+
+#liuyan-list{width:98%; margin:5px auto;}
+#liuyan-list .liuyan-table{width:98%; border:#09F 0px solid; border-collapse:1px; background:#ccc; margin:20px 0px 0px 0px}
+#liuyan-list .liuyan-table td{background:#fff; padding:2px 5px;}
+#liuyan-list .liuyan-table .column-name{background:#ddd; width:10%; text-align:center;}
+#liuyan-list .liuyan-pagenumber{text-align:right; padding:10px 15px;}
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------index main style--------------*/
+
+.footer{ line-height:20px;line-height:18px;color:#373E48;text-align:left;width:960px;overflow:hidden;margin:0px auto;color:#666;padding-top:10px; position:relative;padding-bottom:10px;}
+.footer a{color:#666;}
+.footer .quick_access a{padding:0px 3px;}
+.footer .quick_access a:hover{color:red;}
+.footer .copyright{width:400px;padding-left:3px;margin-top:6px;}
+.footer .service{ position:absolute;right:0px;top:10px;}
+
+
+
+
+.links{ text-align:right;height:45px;line-height:45px;background:  #ccc;margin-top:10px;}
+.links select{margin-top:12px;margin-right:10px;}
+
+
+
+
+
+#two_frame{ height:100%;background:url('../images/bg_main.gif')  repeat-x;padding-top:10px;}
+#two_frame .frame_l{width:560px;float:left;overflow:hidden;height:100%;}
+#two_frame .frame_r{width:420px;float:right;overflow:hidden;height:100%;}
+
+
+.box2_margin{maring-top:10px;}
+.box2{}
+.box2 .box2_t{height:27px;line-height:27px;color:#fff; background:url(display/1.gif);}
+.box2 .box2_t h3{padding-left:20px;padding-right:5px;background:url('ico/ico2.gif') 5px center no-repeat;}
+.box2 .box2_m{color:#999;line-height:23px;padding:10px 0px;height:100%;overflow:hidden;background:url('../images/box2_m.gif') left top   no-repeat;height:150px;}
+.more{float:right;padding-right:10px;padding-top:5px;}
+.more a{color:#989898;}
+.more a:hover{color:#000;}
+
+
+.box2_con_l{float:left;width:180px;height:120px;background:#fff url('../images/adpic_frame.gif') left top   no-repeat;margin-top:15px;}
+.box2_con_l div{padding:5px;width:160px;height:100px;overflow:hidden;}
+.box2_con_r{float:right;width:370px;overflow:hidden;}
+
+.more_bid{float:right;padding-right:10px;font-size:12px;}
+.more_bid a{color:#ccc;padding:0px 2px;}
+.more_bid a:hover{color:#999;}
+
+
+
+
+#main_frame{height:100%;background:url('../images/bg_main.gif')  repeat-x;padding-top:10px;}
+#main_frame .frame_l{width:230px;float:left;height:100%;overflow:hidden;}
+
+.box1{}
+.box1 .box1_t{height:27px;line-height:27px;color:#fff;background:url('../images/box0_T.gif')  repeat-x;}
+.box1 .box1_t h3{padding-left:20px;padding-right:5px;background:url('../images/ico2.gif') 5px center no-repeat;}
+.box1 .box1_m{color:#8b949d;line-height:23px;padding:5px 10px;height:100%;overflow:hidden;border:1px solid #e4e5e9}
+
+.box0{margin-top:10px;}
+.box0 .box0_t{height:27px;line-height:27px;color:#fff;background:url('../images/box0_T.gif')  repeat-x;}
+.box0 .box0_t h3{padding-left:20px;padding-right:5px;background:url('../images/ico2.gif') 5px center no-repeat;}
+.box0 .box0_m{color:#8b949d;line-height:23px;padding:5px 10px;height:100%;overflow:hidden;border:1px solid #e4e5e9}
+
+
+#main_frame .frame_r{width:750px;float:right;height:100%;overflow:hidden;}
+
+
+.box4{border:0px solid #666666;}
+.box4 .box4_t{height:27px;line-height:27px;background:url('../images/ico2.gif') 5px center no-repeat;color:#666;border-bottom:1px solid #999; position:relative;}
+.box4 .box4_t span{padding-left:20px;padding-right:5px; position:absolute;bottom:-3px;left:0px;border-bottom:3px solid #;}
+.box4 .box4_t span a{color:#666;}
+.box4 .box4_t span a:hover{color:red;}
+.box4 .box4_m{color:#666;line-height:23px;padding:15px 10px;}
+.box4 .box4_m a{color:#666;}
+.box4 .box4_m a:hover{color:red;}
+.box4 .box4_m0{color:#000;background:#666;}
+
+
+.adpic{width:990px;overflow:hidden;}
